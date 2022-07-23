@@ -5,7 +5,7 @@ LLVM:
 	OR
 	$ clang/clang++ -S -emit-llvm fileName.c/fileName.cpp -o fileName.bc
 	
-	clang++ -S -emit-llvm main.cpp -o main.ll
+	clang++ -S -emit-llvm filename.cpp -o filename.ll
 
 2. To build :
 	$ make
@@ -15,5 +15,6 @@ LLVM:
 	OR
 	$ opt -instnamer -load ./LvaPass.so -LvaPass < ./tests/fileName.bc > /dev/null
 
+	opt -instnamer -load ./LvaPass.so -LvaPass < ./tests/array.ll > /dev/null
 	
 
