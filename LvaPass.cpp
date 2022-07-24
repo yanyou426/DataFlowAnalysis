@@ -44,6 +44,7 @@ namespace{
 
 			virtual bool runOnFunction(Function &F){
 				domain_values.clear();
+				//
 				for(auto curr = F.arg_begin(); curr != F.arg_end(); curr++){
 					domain_values.push_back(curr);
 				}
@@ -158,6 +159,7 @@ namespace{
 
 				return false;
 			}
+
 			FlowOrder run(Function &F){
 				DenseMap<BasicBlock*,BitVector> kill;
 				DenseMap<BasicBlock*,BitVector> gen;

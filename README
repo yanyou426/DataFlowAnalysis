@@ -15,6 +15,6 @@ LLVM:
 	OR
 	$ opt -instnamer -load ./LvaPass.so -LvaPass < ./tests/fileName.bc > /dev/null
 
-	opt -instnamer -load ./LvaPass.so -LvaPass < ./tests/array.ll > /dev/null
+	opt -instnamer -load ./LvaPass.so -LvaPass < ./tests/array.bc > /dev/null
 	
 

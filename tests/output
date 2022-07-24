@@ -1,0 +1,87 @@
+Live values out of each Basic Block :
+--------------------------------------
+	Basic Block 	:	 Live Values
+	-------------------------------------
+	bb		:	 
+----------------------------------------------------
+
+Live values at each program point in each Basic Block : 
+----------------------------------------------------
+ bb :
+	program_point : live values
+	----------------------------
+	3	      :  
+	2	      :  
+	1	      :  
+	0	      :  
+
+------------------------------------------------------------------
+
+Histogram : 
+------------
+#live_values	: #program_points
+---------------------------------
+	0	:	4
+Live values out of each Basic Block :
+--------------------------------------
+	Basic Block 	:	 Live Values
+	-------------------------------------
+	bb		:	 
+----------------------------------------------------
+
+Live values at each program point in each Basic Block : 
+----------------------------------------------------
+ bb :
+	program_point : live values
+	----------------------------
+	15	      :  
+	14	      :  
+	13	      :  tmp8, 
+	12	      :  tmp7, 
+	11	      :  tmp3, 
+	10	      :  tmp3, tmp6, 
+	9	      :  tmp3, tmp4, tmp5, 
+	8	      :  tmp2, tmp3, tmp4, 
+	7	      :  tmp1, tmp2, tmp3, 
+	6	      :  tmp1, tmp2, tmp3, 
+	5	      :  tmp1, tmp2, tmp3, 
+	4	      :  tmp, tmp1, tmp2, tmp3, 
+	3	      :  tmp, tmp1, tmp2, 
+	2	      :  tmp, tmp1, 
+	1	      :  tmp, 
+	0	      :  
+
+------------------------------------------------------------------
+
+Histogram : 
+------------
+#live_values	: #program_points
+---------------------------------
+	0	:	3
+	1	:	4
+	2	:	2
+	3	:	6
+	4	:	1
+Live values out of each Basic Block :
+--------------------------------------
+	Basic Block 	:	 Live Values
+	-------------------------------------
+	bb		:	 
+----------------------------------------------------
+
+Live values at each program point in each Basic Block : 
+----------------------------------------------------
+ bb :
+	program_point : live values
+	----------------------------
+	2	      :  
+	1	      :  
+	0	      :  
+
+------------------------------------------------------------------
+
+Histogram : 
+------------
+#live_values	: #program_points
+---------------------------------
+	0	:	3
